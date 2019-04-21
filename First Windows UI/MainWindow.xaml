@@ -7,12 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="Sign In" HorizontalAlignment="Left" Margin="570.766,35,0,0" VerticalAlignment="Top" FontSize="36"/>
+
+        <Label Content="Sign In" HorizontalAlignment="Left" Margin="570,37.116,0,0" VerticalAlignment="Top" FontSize="36"/>
         <Label Content="User Name" HorizontalAlignment="Left" Margin="455.186,121.292,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Height="24.805" Margin="572.26,125.195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167.74"/>
         <PasswordBox HorizontalAlignment="Left" Margin="577.04,204.756,0,0" VerticalAlignment="Top" Width="162.96" Height="25.244"/>
         <Label Content="Password" HorizontalAlignment="Left" Margin="456.096,199.04,0,0" VerticalAlignment="Top"/>
         <Button Content="Sign in" HorizontalAlignment="Left" Margin="585,300.04,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Sign up" HorizontalAlignment="Left" Margin="165,53.72,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.298,0" FontSize="16"/>
+        <Label Content="Username" HorizontalAlignment="Left" Margin="31.903,125,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.395,-0.578"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="31.753,175,0,0" VerticalAlignment="Top"/>
+        <Label Content="Re-enter Password" HorizontalAlignment="Left" Margin="31.48,225.2,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="185,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="185,179.184,0,0" VerticalAlignment="Top" Width="145"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="185,227.04,0,0" VerticalAlignment="Top" Width="145"/>
+        <Button Content="Sign-Up" HorizontalAlignment="Left" Margin="160,300,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>
